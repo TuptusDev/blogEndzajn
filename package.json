@@ -1,0 +1,32 @@
+{
+  "name": "blogendzajn",
+  "version": "0.1.0",
+  "description": "The simple blog engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuptusDev/blogEndzajn.git"
+  },
+  "keywords": [
+    "Express",
+    "Mongo",
+    "EJS"
+  ],
+  "author": "Tuptus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuptusDev/blogEndzajn/issues"
+  },
+  "homepage": "https://github.com/TuptusDev/blogEndzajn#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
